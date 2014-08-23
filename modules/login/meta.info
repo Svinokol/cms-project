@@ -1,0 +1,5 @@
+name:Login system
+version:1.0
+namespace:login
+index:index.php
+install:install.php

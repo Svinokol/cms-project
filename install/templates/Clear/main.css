@@ -1,0 +1,110 @@
+body {
+    background: url('./images/bg.jpg');
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+   
+}
+h1 {
+    font-size: 40px;
+    color: #76b02b;
+               
+               
+}
+#content {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    margin:auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 700px;
+    height: auto;
+    min-height: 100px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+}
+#notification {
+    position:fixed;
+    bottom:10%;
+    padding:1em;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin:auto;
+    right:40%;
+    left:40%;
+    background:black;
+    color:white;
+    border-radius:5px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.77);
+}        
+ 
+#notification:before,
+#notification:after {
+    content:"";
+    margin:0 auto;
+    position:absolute;
+    z-index:-2;
+}
+#notification p {
+    margin:0 auto;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+}  
+
+#loadbar{
+    z-index: 100500;
+    position: fixed;
+    display:inline-block;
+    width:100%;
+    height:20px;
+}
+#circle{
+    position:absolute;
+    display:block;
+    width:20px;
+    height:20px;
+    border-radius:20px;
+    background-color:green;
+}
+
+
+
+.button {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.button:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.lt-ie9 input[type=text], .lt-ie9 input[type=password] {
+  line-height: 34px;
+}

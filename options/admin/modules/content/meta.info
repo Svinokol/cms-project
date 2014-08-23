@@ -1,0 +1,5 @@
+name:Модуль представления данных
+version:1.0
+about:Системный модуль, служащий основой представления данных.
+index:index.php
+options:options.php

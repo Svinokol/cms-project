@@ -1,0 +1,6 @@
+name:AdminPanel
+version:1.0
+index:admin.php
+options:options.php
+install:install.php
+template:Clear

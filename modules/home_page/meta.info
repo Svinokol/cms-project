@@ -1,0 +1,5 @@
+name:Home page
+version:1.1
+index:index.php
+namespace:home_page
+install:install.php
