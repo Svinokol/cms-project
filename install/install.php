@@ -1,5 +1,5 @@
 <?php
-    include_once("../options/core.php");    
+    include_once("../options/Core.php");
 
     class Install
     {

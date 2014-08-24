@@ -2,17 +2,17 @@
     error_reporting(E_ALL);
     ini_set("display_errors", 1);
 
-    include_once("module.php");
+    include_once("Module.php");
     include_once("IDataBase.php");
-    include_once("mysql.php");
-    include_once("template.php");
-    include_once("moduleController.php");
-    include_once("configController.php");
-    include_once("templateController.php");
+    include_once("Mysql.php");
+    include_once("Template.php");
+    include_once("ModuleController.php");
+    include_once("ConfigController.php");
+    include_once("TemplateController.php");
     include_once("File.php");
     include_once("UploadFile.php");
     include_once("IUser.php");
-    include_once("user.php");
+    include_once("User.php");
 
     class Core{        
 

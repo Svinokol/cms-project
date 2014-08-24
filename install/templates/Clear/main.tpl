@@ -285,7 +285,7 @@
 
             }
 
-            
+
             function setNotification(text) {
                 var html = "<p>" + text + "</p>";
                 var element = document.createElement("div");
