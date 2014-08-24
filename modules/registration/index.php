@@ -40,7 +40,7 @@ namespace registration
                         $avatar = $this->core->addFile($_FILES['avatar']);
                     }
                     //echo($_POST['avatar']['name']);
-                    $query="INSERT INTO Users (email,fname,lname,photo,permission,pass) VALUES ('".$email."','".$fname."','".$lname."','".$avatar."',5,'".$password."');";
+                    $query="INSERT INTO Users (email,fname,lname,photo,permission,pass,user_hash,ip) VALUES ('".$email."','".$fname."','".$lname."','".$avatar."',5,'".$password."','','".$_SERVER["REMOTE_ADDR"]."');";
                     $this->core->queryToDataBase($query);
                     $this->core->setFileFromTemplate("success.tpl");
                 }catch (\Exception $ex)

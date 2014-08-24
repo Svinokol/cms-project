@@ -75,6 +75,8 @@
                                     photo VARCHAR(200),
                                     permission INT(10) NOT NULL,
                                     pass VARCHAR(200) NOT NULL,
+                                    user_hash VARCHAR(200) NOT NULL,
+                                    ip VARCHAR(200) NOT NULL,
                                     PRIMARY KEY(id)
                                 );";
                                 $this->mysql->query($query);
