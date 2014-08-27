@@ -1,6 +1,6 @@
 <div class="center-block">
 
-    <h1>Профиль {fname} {lname}</h1>
+    <h1>{fname} {lname}</h1>
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <img class="img-thumbnail" src="{photo}" alt="photo"/>
